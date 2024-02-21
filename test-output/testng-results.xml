@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T06:58:45Z" name="Suite" finished-at="2024-02-15T06:59:32Z" duration-ms="47257">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" name="submitOrder" class="ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-02-15T06:58:45Z" name="Error Validations Test" finished-at="2024-02-15T06:59:13Z" duration-ms="27376">
+      <class name="ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:58:45Z" name="lunchApplication" finished-at="2024-02-15T06:58:52Z" duration-ms="6407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:58:52Z" name="productErrorValidation" finished-at="2024-02-15T06:59:01Z" duration-ms="9505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:59:01Z" name="tearDown" finished-at="2024-02-15T06:59:01Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:59:01Z" name="lunchApplication" finished-at="2024-02-15T06:59:12Z" duration-ms="10978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:59:12Z" name="submitOrder" finished-at="2024-02-15T06:59:13Z" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest@40e10ff8]" started-at="2024-02-15T06:59:13Z" name="tearDown" finished-at="2024-02-15T06:59:13Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-02-15T06:58:45Z" name="Submit Order Test" finished-at="2024-02-15T06:59:32Z" duration-ms="47257">
+      <class name="ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:58:46Z" name="lunchApplication" finished-at="2024-02-15T06:58:52Z" duration-ms="6036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:58:52Z" name="submitOrder" data-provider="getData" finished-at="2024-02-15T06:59:05Z" duration-ms="13254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ratan@123, product=ZARA COAT 3, email=ratan.glbian@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:05Z" name="tearDown" finished-at="2024-02-15T06:59:05Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:05Z" name="lunchApplication" finished-at="2024-02-15T06:59:12Z" duration-ms="7347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:12Z" name="submitOrder" data-provider="getData" finished-at="2024-02-15T06:59:26Z" duration-ms="13493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ratan@123, product=ADIDAS ORIGINAL, email=ratan.glbian@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:26Z" name="tearDown" finished-at="2024-02-15T06:59:26Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:26Z" name="lunchApplication" finished-at="2024-02-15T06:59:31Z" duration-ms="5548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:31Z" name="OrderHistoryTest" finished-at="2024-02-15T06:59:32Z" depends-on-methods="ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest.submitOrder" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest@71b3bc45]" started-at="2024-02-15T06:59:32Z" name="tearDown" finished-at="2024-02-15T06:59:32Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ratnesh.SeleniumFrameworkDesign.Test.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

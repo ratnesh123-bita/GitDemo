@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ratnesh.SeleniumFrameworkDesign.TestComponent.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validations Test(failed)">
+    <classes>
+      <class name="ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest">
+        <methods>
+          <include name="productErrorValidation"/>
+          <include name="tearDown"/>
+          <include name="lunchApplication"/>
+        </methods>
+      </class> <!-- ratnesh.SeleniumFrameworkDesign.Test.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Error Validations Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
